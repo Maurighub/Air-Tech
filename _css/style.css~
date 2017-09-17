@@ -1,0 +1,132 @@
+    /***************
+    * BASIC RESET *
+    ***************/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: "lato";
+    color:rgba(255,255,255,1);
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+    /**********
+    *  Header *
+    **********/
+.container{
+    position: relative;
+    width: 100%;
+    margin: -10px auto;
+    padding-top: 5px;
+    background: rgba(204,204,204,.6);
+}
+.main-address{
+    position: relative;
+    width:98%;
+    margin:10px auto;
+    text-align: center;
+    background: rgba(24,171,210,1);
+    border-bottom: 3px solid rgba(255,255,255,.7);
+}
+.main-address p{
+    font-size: 1em;
+}
+.main-address img{
+    margin-right: 5px;
+    vertical-align:middle ;
+}
+
+.main-header{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden; 
+}
+
+.logo{
+    width: 60%;
+    margin: 10px auto;
+    height: 95px;
+    font-size: 0;
+    //background: url(../_img/logoAirTech.png) center center/190px no-repeat;
+}
+.btn_menu{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin: -75px 10px auto;
+    padding-top: 10px;
+    font-size: 4em;
+    color: rgba(255,255,255,.8);
+    background: rgba(0,0,0,0); 
+    border-radius: 13px;
+    cursor: pointer;
+    
+}
+.navigation{
+    position: fixed;
+    display: none;
+    width: 98%;
+    height: 300px;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    z-index: 1;
+}
+.navigation ul{
+    font-size: 2em;
+}
+.navigation ul li{
+    text-align: center;
+    text-decoration: none;
+}
+   /************
+    *    Body  *
+    ************/
+.index-main{
+    position: relative;
+    width: 98%;
+    margin: 11px auto;
+    background: url(../_img/bg_body.jpg) center top/98% no-repeat;
+}
+.index-main img{
+    opacity: 0.2;
+}
+
+   /************
+    *  Footer  *
+    ************/
+.main-footer{
+    width: 98%;
+    margin: -12px auto;
+    padding: 5px;
+    text-align: center;
+    background: rgba(33,33,33,1);
+}
+.social{
+    text-align: justify;
+}
+.social img{
+    width: 15px;
+    margin-top: 3px;
+    vertical-align: middle;
+}
+.main-footer hr, p{
+    opacity: .4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
